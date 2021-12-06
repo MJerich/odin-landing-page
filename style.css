@@ -1,7 +1,9 @@
-/* top/hero part */
+/* top-hero part */
 .hero {
     background-color: #1F2937;
     padding: 25px;
+    margin: 0px;
+    border: 0px;
 }
 
 .htop {
@@ -19,7 +21,7 @@
 .tlink {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     padding-right: 10%;
 }
 
@@ -43,6 +45,13 @@
 }
 
 /* default tags */
+
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
